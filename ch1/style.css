@@ -1,0 +1,14 @@
+h1{
+ text-align: center;
+ color: blue;
+ font-size: 5em;
+}
+
+body{
+ background-image:url(anj.jpeg);
+ background-repeat:no-repeat;
+}
+
+html{
+  height:100%;
+}
