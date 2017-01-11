@@ -1,0 +1,43 @@
+header{
+  height: 15vh;
+  background-color: #696969;
+  font-size: 50px;
+  padding:10px;
+  text-align: center;
+}
+
+.first{
+  width: 100%;
+  height: auto;
+}
+article{
+  float:left;
+  width: 30%;
+  background-color: #A9A9A9;
+  font-size: 18px;
+  padding: 30px;
+  clear: both;
+  height: 70vh;
+}
+aside.second{
+  float: left;
+  width: 40%;
+  background-color: #A9A9A9;
+  font-size: 18px;
+  padding: 30px;
+  height: 70vh;
+}
+aside.third{
+  float: right;
+  width: 30%;
+  background-color: #A9A9A9;
+  font-size: 18px;
+  padding: 30px;
+  height: 70vh;
+}
+footer{
+  height: 15vh;
+  background-color: #696969;
+  clear: both;
+  padding: 20px;
+}
