@@ -1,3 +1,23 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 *{
   box-sizing: border-box;
 }
@@ -5,23 +25,24 @@ p{
   line-height: 27px;
   font-size: 18px;
   text-align:justify;
+
 }
 
 header {
-background-image:  url(http://www.csszengarden.com/214/huntington.jpg);
+background-image:   url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
 height:250px;
-text-align: center;
+text-align: left;
 
         padding-left: 50px;
       padding-top: 50px;
       margin-bottom: 30px;
-      font-family: arial;
+      font-family: andale mono;
 }
 
 
 header h1 {
   font-size: 60px;
-  font-family: 'Abel', sans-serif;
+  font-family: Andale Mono;
   margin-left: 80px;
   margin-bottom: 3px;
   color: #fff;
@@ -37,12 +58,17 @@ font-weight: 100;
   color: #fff;
 }
 
+
 section.one{
   background: #fff;
   width: 75%;
 float: left;
 padding-right: 5%;
 padding-left: 10%;
+}
+section {
+  background-color:#fff;
+  height: 100%;
 }
 
 h3 {
@@ -58,9 +84,15 @@ h3 {
     width: 250px;
     padding: 15px;
     text-align: center;
-    margin-top: -150px;
-    margin-left: 1000px;
+    margin-top: -100px;
+    margin-left: 1050px;
     color:white;
+}
+.page-wrapper{
+  padding:-10px;
+}
+.page-wrapper a{
+  text-decoration-color: white;
 }
 
 .new-back {
@@ -97,7 +129,7 @@ aside {
   float: left;
   padding-left: 10px;
   background: #e2e2e2;
-height: 298%;
+height: 242%;
 position: absolute;
 top:0px;
 right: 0px;
@@ -106,12 +138,13 @@ opacity: 0.3;
 
 
 .design-selection ul  {
-  margin-top:300px;
+  margin-top:230px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 justify-content: center;
+margin-left: -40px;
 }
 
 .design-selection ul  li{
@@ -121,7 +154,7 @@ justify-content: center;
 }
 
 .design-selection ul  li a {
-  color: grey;
+  color: #000000 ;
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -130,11 +163,11 @@ justify-content: center;
   text-transform: normal;
 }
 .design-selection ul  li a:nth-child(3n) {
-  color: black;
+  color: #000000 ;
 }
 
 .zen-resources ul {
-margin-top:100px;
+margin-top:30px;
   display: flex;
   justify-content: center;
 flex-direction: column;
@@ -145,6 +178,7 @@ flex-direction: column;
 .zen-resources ul  li {
   width: 100%;
   margin-top: 35px;
+  margin-left:40px ;
   padding-bottom: 9px;
   border-bottom: 1px solid grey;
   text-align: left;
@@ -155,8 +189,8 @@ flex-direction: column;
   color: grey;
   text-decoration:none;
   text-transform:uppercase;
-  font-size: 20px;
-  margin-top:
+  font-size: 18px;
+  margin-top:100px;
 }
 .requirements{
   width: 100%;
@@ -168,23 +202,40 @@ flex-direction: column;
   display: flex;
   align-items: center;
   justify-content:center;
-  background-image:  url(http://www.csszengarden.com/214/huntington.jpg);
+  background-image:  url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
         background-size: 50% ;
-        height: 150px;
+        height: 200px;
         text-align: center;
 }
 .end p {
-  color: #756f6d;
+  color: #282828  ;
   font-size:24px;
 }
 
 .end p {
   font-style:italic;
-line-height: 70px;
+line-height: 60px;
 }
 
 .end a {
   color: #fff;
   font-weight: 50px;
 font-style: normal;
+}
+
+footer {
+  background: #00443e;
+  height:100px;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 0px;
+}
+
+footer ul li {
+  margin-right: 50px;
+  margin-top: 20px;
 }
