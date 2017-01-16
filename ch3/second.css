@@ -16,13 +16,13 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+
 }
 *{
   box-sizing: border-box;
 }
 p{
-  line-height: 27px;
+  line-height: 30px;
   font-size: 18px;
   text-align:justify;
 
@@ -32,21 +32,28 @@ header {
 background-image:   url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
 height:250px;
 text-align: left;
+background-size: auto, auto, auto,  cover;
+        background-repeat: repeat, repeat, repeat, no-repeat;
 
         padding-left: 50px;
-      padding-top: 50px;
+      padding-top: 180px;
       margin-bottom: 30px;
       font-family: andale mono;
+      width: 100%;
 }
 
-
+a {
+  color:  #1d5d7b;
+  font-weight: bold;
+}
 header h1 {
   font-size: 60px;
   font-family: Andale Mono;
-  margin-left: 80px;
+  margin-left: 160px;
   margin-bottom: 3px;
   color: #fff;
-
+  text-transform: uppercase;
+margin-top: -100px;
 }
 
 header h2 {
@@ -56,19 +63,25 @@ header h2 {
 font-weight: 100;
   font-style: italic;
   color: #fff;
+  margin-left: 160px;
 }
-
-
-section.one{
-  background: #fff;
-  width: 75%;
-float: left;
-padding-right: 5%;
+i {
+  margin-right: 5px;
+}
+.summary, .preamble, .explanation {
+  width: 70%;
 padding-left: 10%;
 }
-section {
-  background-color:#fff;
-  height: 100%;
+
+.summary a {
+  padding: 10px;
+  color: #000;
+}
+
+.summary a:hover {
+  background:RED;
+  border-radius: 5px;
+  color: #000;
 }
 
 h3 {
@@ -79,48 +92,62 @@ h3 {
   font-size:22px;
   margin-left:0px;
 }
-.viewall {
-  border: 1px solid white;
-    width: 250px;
-    padding: 15px;
-    text-align: center;
-    margin-top: -100px;
-    margin-left: 1050px;
-    color:white;
-}
-.page-wrapper{
-  padding:-10px;
-}
-.page-wrapper a{
-  text-decoration-color: white;
-}
+.participation, .benefits {
 
-.new-back {
-  background-color: #33CC99;
     background-image:  url(http://www.csszengarden.com/214/bamboo.png);
-  width: 100%;
-  display: flex ! important;
-  flex-direction: column;
+background-attachment: fixed;
+    background-color: lightgreen;
+padding-top: 20px;
   padding-right: 30%;
   padding-left: 10%;
-  padding-bottom:20px;
+padding-bottom: 20px;
+
 }
-.diff{
+
+.viewdesign {
+  border: 1px solid black;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+margin-top: 70px;
+margin-left: 10% ;
+
+}
+.supporting .requirements {
+
+  clear: both;
   width: 100%;
-  display: flex ! important;
-  flex-direction: column;
-  padding-right: 30%;
+
+}
+
+.requirements p {
+  float:left;
+  clear: both;
+  width: 70%;
   padding-left: 10%;
-  padding-bottom:20px;
-
+  margin-bottom: 20px;
 }
 
-.participation {
-  width: 100%;
+.requirements h3 {
+  padding-left: 10%;
 }
 
-.benefits {
-  width: 100%;
+.sidebar {
+height: 2040px;
+  width: 25%;
+  float: right;
+  padding-left: 10px;
+  background: #e2e2e2;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 250px;
+opacity: 0.3;
+}
+.sidebar ul {
+  list-style: none;
+  overflow: hidden;
 }
 
 
@@ -138,13 +165,13 @@ opacity: 0.3;
 
 
 .design-selection ul  {
-  margin-top:230px;
+margin-top: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 justify-content: center;
-margin-left: -40px;
+
 }
 
 .design-selection ul  li{
@@ -173,12 +200,13 @@ margin-top:30px;
 flex-direction: column;
   align-items: center;
   text-align: center;
+  float: right;
 }
 
 .zen-resources ul  li {
   width: 100%;
   margin-top: 35px;
-  margin-left:40px ;
+  margin-left:5px ;
   padding-bottom: 9px;
   border-bottom: 1px solid grey;
   text-align: left;
@@ -192,24 +220,22 @@ flex-direction: column;
   font-size: 18px;
   margin-top:100px;
 }
-.requirements{
-  width: 100%;
-}
-
 
 .end {
-  margin-top: 30px;
+
   display: flex;
   align-items: center;
   justify-content:center;
   background-image:  url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
         background-size: 50% ;
-        height: 200px;
+        height: 150px;
         text-align: center;
+        width: 100%;
 }
 .end p {
   color: #282828  ;
   font-size:24px;
+  text-align: center;
 }
 
 .end p {
@@ -226,16 +252,244 @@ font-style: normal;
 footer {
   background: #00443e;
   height:100px;
+  clear: both;
 }
 
 footer ul {
   display: flex;
   align-items: center;
   justify-content:center;
-  margin-top: 0px;
+
 }
 
 footer ul li {
   margin-right: 50px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 312px) {
+
+p {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+
+  .supporting, section {
+    width: 100%;
+    float: left;
+
+  }
+
+  .sidebar {
+    width: 100%;
+    float: left;
+    height:500px;
+    position:initial;
+  }
+
+
+header {
+
+  height: 150px;
+  padding-left: 60px;
+  padding-top: 40px;
+
+}
+header h1 {
+  font-size: 10px;
+  margin-left: 28px;
+  margin-top: -60px;
+
+}
+
+header h2 {
+  font-size: 24px;
+  margin-left: 30px;
+}
+header img {
+  width: 60px;
+  height: 60px;
+margin-left: -40px;
+padding-left: 0px;
+}
+
+
+.lastbanner {
+        height: 200px;
+}
+.lastbanner p {
+  font-size:24px;
+line-height: 40px;
+}
+
+footer ul li {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.summary, .preamble, .explanation {
+  width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.participation, .benefits  {
+  width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.requirements p {
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.requirements h3 {
+  padding-left: 5%;
+}
+
+.zen-resources ul  li a {
+  font-size: 24px;
+}
+
+.design-selection ul  li a {
+  font-size: 24px;
+}
+
+.designer-name a {
+  font-size: 24px;
+}
+
+.viewdesign {
+  font-size: 24px;
+  text-align: center;
+}
+
+.viewdesign:hover {
+  background: black;
+  color: white;
+}
+}
+
+@media screen and (min-width: 312px) and (max-width: 1024px) {
+p {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+
+  .supporting, section {
+    width: 100%;
+    float: left;
+
+  }
+
+  .sidebar {
+    width: 100%;
+    float: left;
+    position:initial;
+    height:500px;
+  }
+
+
+header {
+
+  height: 200px;
+  padding-left: 60px;
+  padding-top: 40px;
+
+}
+header h1 {
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 50px;
+
+}
+
+header h2 {
+  font-size: 15px;
+  margin-left: 70px;
+}
+header img {
+  width: 100px;
+  height: 100px;
+margin-left: -40px;
+padding-left: 0px;
+}
+
+
+.lastbanner {
+        height: 200px;
+}
+.lastbanner p {
+  font-size:24px;
+line-height: 40px;
+}
+
+.fa-ul i {
+  color: white;
+  text-align: center;
+  font-size: 1.9em;
+  margin-left: -10px;
+}
+footer ul li {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.summary, .preamble, .explanation {
+  width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.participation, .benefits  {
+  width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.requirements p {
+width: 100%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.requirements h3 {
+  padding-left: 5%;
+}
+
+.zen-resources ul  li a {
+  font-size: 24px;
+}
+
+.design-selection ul  li a {
+  font-size: 24px;
+}
+
+.designer-name a {
+  font-size: 24px;
+}
+
+.viewdesign {
+  font-size: 24px;
+  text-align: center;
+}
+
+.viewdesign:hover {
+  background: black;
+  color: white;
+}
+}
+
+
