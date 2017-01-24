@@ -1,31 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&subset=latin-ext');
+
 /*font-family: 'Julius Sans One', sans-serif;*/
+
 @font-face {
   font-family: 'icomoon';
   src: url('fonts/icomoon.eot');
-  src: url('fonts/icomoon.woff2') format('woff2'),
-       url('fonts/icomoon.woff') format('woff'),
-       url('fonts/icomoon.ttf') format('truetype'),
-       url('fonts/icomoon.svg#icomoon') format('svg'),
-       url('fonts/icomoon.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/icomoon.woff2') format('woff2'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.svg#icomoon') format('svg'), url('fonts/icomoon.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -34,27 +21,38 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+
 /*==========================*/
+
+
 /*main css*/
-*{
+
+* {
   box-sizing: border-box;
 }
+
 body {
   position: relative;
 }
-p{
+
+p {
   line-height: 30px;
   font-size: 18px;
-  text-align:justify;
-  font-family:'Pontano Sans', sans-serif;
+  text-align: justify;
+  font-family: 'Pontano Sans', sans-serif;
 }
+
+
 /*==========================*/
+
+
 /*Header part*/
+
 header {
-  background-image:url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
-  height:250px;
+  background-image: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+  height: 250px;
   text-align: left;
-  background-size: auto, auto, auto,  cover;
+  background-size: auto, auto, auto, cover;
   background-repeat: repeat, repeat, repeat, no-repeat;
   padding-left: 50px;
   padding-top: 180px;
@@ -63,13 +61,15 @@ header {
   width: 100%;
   font-family: 'Julius Sans One', sans-serif;
 }
-header img{
+
+header img {
   width: 400px;
   height: 120px;
   margin-left: -95px;
   padding-left: 0px;
-  margin-top:-230px;
+  margin-top: -230px;
 }
+
 header h1 {
   font-size: 60px;
   font-family: Andale Mono;
@@ -80,6 +80,7 @@ header h1 {
   margin-top: -110px;
   font-family: 'Julius Sans One', sans-serif;
 }
+
 header h2 {
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
@@ -88,64 +89,78 @@ header h2 {
   color: #fff;
   margin-left: 190px;
 }
-.single-line{
+
+.single-line {
   height: 8px;
-  border:1px solid #0c5752;
+  border: 1px solid #0c5752;
   background-color: #0c5752;
 }
+
+
 /* header ends*/
+
+
 /*===========================*/
 
 a {
-  color:  #1d5d7b;
+  color: #1d5d7b;
   font-weight: bold;
   text-decoration: none;
 }
+
 .summary, .preamble, .explanation {
   width: 70%;
   padding-left: 10%;
 }
+
 .summary a {
   padding: 10px;
   color: #000;
 }
+
 .summary a:hover {
-  background:RED;
+  background: RED;
   border-radius: 5px;
   color: #000;
 }
+
 h3 {
-  color:#A9A9A9;
-  margin:18px;
+  color: #A9A9A9;
+  margin: 18px;
   text-transform: uppercase;
   font-family: 'Julius Sans One', sans-serif;
-  font-size:22px;
-  margin-left:0px;
+  font-size: 22px;
+  margin-left: 0px;
 }
+
 .participation, .benefits {
-  background-image:  url(http://www.csszengarden.com/214/bamboo.png);
+  background-image: url(http://www.csszengarden.com/214/bamboo.png);
   background-attachment: fixed;
   background-color: #57a8a0;
   padding-top: 20px;
   padding-right: 30%;
   padding-left: 10%;
   padding-bottom: 20px;
- opacity: .66;
+  opacity: .66;
 }
+
 .supporting .requirements {
   clear: both;
   width: 100%;
 }
+
 .requirements p {
-  float:left;
+  float: left;
   clear: both;
   width: 70%;
   padding-left: 10%;
   margin-bottom: 20px;
 }
+
 .requirements h3 {
   padding-left: 10%;
 }
+
 .view {
   border: 1px solid #54a095;
   width: 60%;
@@ -153,20 +168,24 @@ h3 {
   padding-bottom: 15px;
   text-align: center;
   margin-top: 10px;
-  margin-left: 10% ;
-  background-color:#54a095;
-  font-color:#a5b5b5;
+  margin-left: 10%;
+  background-color: #54a095;
+  font-color: #a5b5b5;
 }
-.right-arrow{
-  background:url("right-arrow.png") no-repeat center;
+
+.right-arrow {
+  background: url("right-arrow.png") no-repeat center;
   height: 50px;
   width: 30px;
   float: right;
   margin-top: -17px;
-  background-size:47px 60px;
+  background-size: 47px 60px;
 }
 
+
 /*=======================*/
+
+
 /*Sidebar starts*/
 
 .sidebar {
@@ -180,22 +199,25 @@ h3 {
   bottom: 250px;
   opacity: 0.3;
 }
+
 .sidebar ul {
   list-style: none;
-   overflow: hidden;
+  overflow: hidden;
 }
+
 aside {
   width: 25%;
   float: left;
   padding-left: 10px;
   background: #e2e2e2;
   position: absolute;
-  top:0px;
+  top: 0px;
   right: 0px;
-  bottom:250px;
+  bottom: 250px;
   opacity: 0.3;
 }
-.design-selection ul  {
+
+.design-selection ul {
   margin-top: 130px;
   display: flex;
   flex-direction: column;
@@ -203,40 +225,51 @@ aside {
   text-align: center;
   justify-content: center;
 }
-.design-selection{
+
+.design-selection {
   margin-top: 20px;
   padding-top: 48px;
   padding-bottom: 70px;
 }
-.design-selection ul  li{
+
+.design-selection ul li {
   margin-top: 30px;
   padding-bottom: 10px;
   border-bottom: 1px solid grey;
 }
-.design-selection ul li:last-of-type{
+
+.design-selection ul li:last-of-type {
   border-bottom: none;
 }
-.design-selection ul  li a {
-  color: #000000 ;
-  text-decoration:none;
+
+.design-selection ul li a {
+  color: #000000;
+  text-decoration: none;
 }
+
 .design-name {
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-family: 'Julius Sans One', sans-serif;
 }
-.designer-name  {
+
+.designer-name {
   text-transform: lowercase;
 }
-.design-selection ul  li a:nth-child(3n) {
-  color: #000000 ;
+
+.design-selection ul li a:nth-child(3n) {
+  color: #000000;
 }
+
 
 /*sidebar ends*/
+
+
 /*==========================*/
 
-.zen-resources ul:first-of-type{
+.zen-resources ul:first-of-type {
   border-top: 1px solid grey;
 }
+
 .zen-resources ul {
   display: flex;
   font-family: 'Julius Sans One', sans-serif;
@@ -246,342 +279,358 @@ aside {
   text-align: center;
   float: right;
 }
-.zen-resources ul  li {
+
+.zen-resources ul li {
   width: 100%;
   margin-top: 35px;
-  margin-left:5px ;
+  margin-left: 5px;
   padding-bottom: 9px;
   border-bottom: 1px solid grey;
   text-align: left;
 }
-.zen-resources ul  li a {
+
+.zen-resources ul li a {
   color: grey;
-  text-decoration:none;
-  text-transform:uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
   font-size: 18px;
 }
 
+
 /*=======================*/
+
+
 /*Footer part*/
+
 .end {
   display: flex;
   align-items: center;
-  justify-content:center;
-  background-image:  url(http://www.csszengarden.com/214/contours@2x.png),url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/huntington.jpg);
-  background-size: 50% ;
+  justify-content: center;
+  background-image: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+  background-size: 50%;
   height: 150px;
   text-align: center;
   width: 100%;
 }
-.footer li{
+
+.footer li {
   font-family: 'icomoon';
 }
+
 .end p {
-  color: #d1e0e0 ;
-  font-size:24px;
+  color: #d1e0e0;
+  font-size: 24px;
   text-align: center;
-  font-style:italic;
-  line-height:30px;
+  font-style: italic;
+  line-height: 30px;
 }
+
 .end a {
   color: #fff;
   font-weight: 50px;
   font-style: normal;
 }
+
 footer {
   background: #00443e;
-  color:white;
-  height:100px;
+  color: white;
+  height: 100px;
   clear: both;
 }
+
 footer ul {
   font-family: 'icomoon';
   display: flex;
   font-size: 50px;
   align-items: center;
-  justify-content:center;
-    list-style: none;
+  justify-content: center;
+  list-style: none;
 }
+
 footer ul li {
   margin-right: 50px;
   margin-top: 20px;
 }
+
+
 /*footer ends*/
+
+
 /*===========================*/
 
 @media screen and (max-width: 640px) {
-.view{
-  border:1px solid black;
-  color: black;
-  font-size: 20px;
-  width: 200px;
+  .view {
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    width: 200px;
   }
-.right-arrow {
-  width: 44px;
-  height: 60px;
-  margin-left: 100px;
-  margin-top: -62px;
+  .right-arrow {
+    width: 44px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: -62px;
+  }
 }
-}
+
 @media screen and (max-width: 1024px) {
-.right-arrow {
-  width: 44px;
-  height: 0px;
-  margin-left: 220px;
-  margin-top: -62px;
+  .right-arrow {
+    width: 44px;
+    height: 0px;
+    margin-left: 220px;
+    margin-top: -62px;
+  }
+  .design-selection, .design-archives, .zen-resources {
+    font-size: 15px;
+    padding-left: 40px;
+  }
 }
-.design-selection,
-.design-archives,
-.zen-resources
-{
-  font-size: 15px;
-  padding-left: 40px;
-}
-}
+
 @media screen and (max-width: 320px) {
-.p {
-  font-size: 24px;
-  line-height: 40px;
+  .p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  header {
+    height: 150px;
+    padding-left: 60px;
+    padding-top: 40px;
+  }
+  header h1 {
+    font-size: 10px;
+    margin-left: 28px;
+    margin-top: -60px;
+  }
+  header h2 {
+    font-size: 24px;
+    margin-left: 30px;
+  }
+  header img {
+    width: 60px;
+    height: 60px;
+    margin-left: -40px;
+    padding-left: 0px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  .supporting, section {
+    width: 100%;
+    float: left;
+  }
+  .sidebar {
+    width: 100%;
+    float: left;
+    height: 500px;
+    position: initial;
+  }
+  .lastbanner {
+    height: 200px;
+  }
+  .lastbanner p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  footer ul li {
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+  .summary, .preamble, .explanation {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .participation, .benefits {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .requirements p {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .requirements h3 {
+    padding-left: 5%;
+  }
+  .zen-resources ul li a {
+    font-size: 24px;
+    text-align: center;
+  }
+  .design-selection ul li a {
+    font-size: 24px;
+  }
+  .designer-name a {
+    font-size: 24px;
+  }
+  .right-arrow {
+    width: 44px;
+    height: 60px;
+    margin-left: 217px;
+    margin-top: -62px;
+  }
+  .view {
+    font-size: 24px;
+    text-align: center;
+  }
+  .view:hover {
+    background: black;
+    color: white;
+  }
 }
-header {
-  height: 150px;
-  padding-left: 60px;
-  padding-top: 40px;
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .view {
+    background: url("http://www.csszengarden.com/214/bamboo.png");
+    width: 170px;
+    height: 20px;
+    border: 1px solid #54a095;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2px;
+    background-color: #54a095;
+    color: #a5b5b5;
+  }
 }
-header h1 {
-  font-size: 10px;
-  margin-left: 28px;
-  margin-top: -60px;
-}
-header h2 {
-  font-size: 24px;
-  margin-left: 30px;
-}
-header img {
-  width: 60px;
-  height: 60px;
-  margin-left: -40px;
-  padding-left: 0px;
-}
-h3 {
-  font-size: 32px;
-}
-.supporting, section {
-  width: 100%;
-  float: left;
-}
-.sidebar {
-  width: 100%;
-  float: left;
-  height:500px;
-  position:initial;
-}
-.lastbanner {
-  height: 200px;
-}
-.lastbanner p {
-  font-size:24px;
-  line-height: 40px;
-}
-footer ul li {
-  margin-right: 15px;
-  margin-top: 20px;
-}
-.summary, .preamble, .explanation {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.participation, .benefits  {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.requirements p {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.requirements h3 {
-  padding-left: 5%;
-}
-.zen-resources ul  li a {
-  font-size: 24px;
-  text-align: center;
-}
-.design-selection ul  li a {
-  font-size: 24px;
-}
-.designer-name a {
-  font-size: 24px;
-}
-.right-arrow{
-  width: 44px;
-  height: 60px;
-  margin-left: 217px;
-  margin-top: -62px;
-}
-.view {
-  font-size: 24px;
-  text-align: center;
-}
-.view:hover {
-  background: black;
-  color: white;
-}
-}
-@media  screen and (min-width: 640px) and (max-width: 1024px) {
-.view{
-  background: url("http://www.csszengarden.com/214/bamboo.png");
-  width: 170px;
-  height: 20px;
-  border:1px solid #54a095;
-  font-size: 14px;
-  text-align: center;
-  line-height: 2px;
-  background-color:#54a095;
-  color:#a5b5b5;
-}
-}
+
 @media screen and (min-width: 641px) and (max-width: 1023px) {
-.view{
-  height: 60px;
-  width: 220px;
-  line-height: 20px;
-  color: black;
-  margin-left: 250px;
-  padding-left: 10px;
-}
-.right-arrow{
-  height: 50px;
-  width: 50px;
-  margin-top: -30px;
-  color:red;
-}
+  .view {
+    height: 60px;
+    width: 220px;
+    line-height: 20px;
+    color: black;
+    margin-left: 250px;
+    padding-left: 10px;
+  }
+  .right-arrow {
+    height: 50px;
+    width: 50px;
+    margin-top: -30px;
+    color: red;
+  }
 }
 
-@media screen and (min-width:321px) and  (max-width: 640px){
-
-.header h1{
-  font-size: 25px;
-  margin-left: 33px;
-  margin-top: -22px;
-}
-.right-arrow{
-  height: 50px;
-  width: 50px;
-  margin-top: -38px;
-}
+@media screen and (min-width:321px) and (max-width: 640px) {
+  .header h1 {
+    font-size: 25px;
+    margin-left: 33px;
+    margin-top: -22px;
+  }
+  .right-arrow {
+    height: 50px;
+    width: 50px;
+    margin-top: -38px;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 1023px) {
-p {
-  font-size: 18px;
-  line-height: 40px;
-}
-header {
-  height: 200px;
-  padding-left: 60px;
-  padding-top: 40px;
-}
-header h1 {
-  font-size: 25px;
-  margin-left: 51px;
-  margin-top: -50px;
-}
-header h2 {
-  font-size: 20px;
-  margin-left: 53px;
-}
-header img {
-  width: 100px;
-  height: 56px;
-  margin-left: -40px;
-  padding-left: 0px;
-  margin-top: 30px;
-}
-h3 {
-  font-size: 32px;
-}
-.supporting, section {
-  width: 100%;
-  float: left;
-  padding-right: 0px;
-}
-.sidebar {
-  width: 100%;
-  float: left;
-  position:initial;
-  height:1323px;
-}
-.lastbanner {
- height: 200px;
-}
-.lastbanner p {
-  font-size:24px;
-  line-height: 40px;
-}
-footer ul li {
-  color:white;
-  margin-right: 15px;
-  margin-top: 40px;
-  list-style: none;
-}
-.summary, .preamble, .explanation {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.participation, .benefits  {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.requirements p {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.requirements h3 {
-  padding-left: 5%;
-}
-.zen-resources ul{
-  width:100%;
-}
-.zen-resources ul  li a {
-  font: 60px;
-  text-align: center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:4px;
-}
-.design-selection ul  li a {
-  font-size: 24px;
-  margin-top:10px;
-}
-.designer-name a {
-  font-size: 24px;
-}
-.view {
-  font-size: 20px;
-  text-align: left;
-  margin-top: -41px;
-}
-.view:hover {
-  background: black;
-  color: white;
-}
-}
-@media  screen and (max-width: 320px){
-.view {
-  border: 1px solid grey;
-  width: 80%;
-  height:60px;
-  font-size: 18px;
-}
-.right-arrow{
-  margin-top: -35px;
-}
+  p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  header {
+    height: 200px;
+    padding-left: 60px;
+    padding-top: 40px;
+  }
+  header h1 {
+    font-size: 25px;
+    margin-left: 51px;
+    margin-top: -50px;
+  }
+  header h2 {
+    font-size: 20px;
+    margin-left: 53px;
+  }
+  header img {
+    width: 100px;
+    height: 56px;
+    margin-left: -40px;
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  .supporting, section {
+    width: 100%;
+    float: left;
+    padding-right: 0px;
+  }
+  .sidebar {
+    width: 100%;
+    float: left;
+    position: initial;
+    height: 1323px;
+  }
+  .lastbanner {
+    height: 200px;
+  }
+  .lastbanner p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  footer ul li {
+    color: white;
+    margin-right: 15px;
+    margin-top: 40px;
+    list-style: none;
+  }
+  .summary, .preamble, .explanation {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .participation, .benefits {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .requirements p {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .requirements h3 {
+    padding-left: 5%;
+  }
+  .zen-resources ul {
+    width: 100%;
+  }
+  .zen-resources ul li a {
+    font: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4px;
+  }
+  .design-selection ul li a {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .designer-name a {
+    font-size: 24px;
+  }
+  .view {
+    font-size: 20px;
+    text-align: left;
+    margin-top: -41px;
+  }
+  .view:hover {
+    background: black;
+    color: white;
+  }
 }
 
+@media screen and (max-width: 320px) {
+  .view {
+    border: 1px solid grey;
+    width: 80%;
+    height: 60px;
+    font-size: 18px;
+  }
+  .right-arrow {
+    margin-top: -35px;
+  }
+}
