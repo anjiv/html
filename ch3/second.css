@@ -38,20 +38,16 @@ time, mark, audio, video {
 /*main css*/
 *{
   box-sizing: border-box;
-
 }
-
 body {
   position: relative;
 }
-
 p{
   line-height: 30px;
   font-size: 18px;
   text-align:justify;
   font-family:'Pontano Sans', sans-serif;
 }
-
 /*==========================*/
 /*Header part*/
 header {
@@ -67,7 +63,6 @@ header {
   width: 100%;
   font-family: 'Julius Sans One', sans-serif;
 }
-
 header img{
   width: 400px;
   height: 120px;
@@ -75,7 +70,6 @@ header img{
   padding-left: 0px;
   margin-top:-230px;
 }
-
 header h1 {
   font-size: 60px;
   font-family: Andale Mono;
@@ -84,22 +78,20 @@ header h1 {
   color: #fff;
   text-transform: uppercase;
   margin-top: -110px;
+  font-family: 'Julius Sans One', sans-serif;
 }
-
 header h2 {
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
-  margin-left: 80px;
   font-weight: 100;
   font-style: italic;
   color: #fff;
-  margin-left: 230px;
+  margin-left: 190px;
 }
-
 .single-line{
   height: 8px;
   border:1px solid #0c5752;
-  background-color: #0c5752;;
+  background-color: #0c5752;
 }
 /* header ends*/
 /*===========================*/
@@ -107,18 +99,16 @@ header h2 {
 a {
   color:  #1d5d7b;
   font-weight: bold;
+  text-decoration: none;
 }
-
 .summary, .preamble, .explanation {
   width: 70%;
   padding-left: 10%;
 }
-
 .summary a {
   padding: 10px;
   color: #000;
 }
-
 .summary a:hover {
   background:RED;
   border-radius: 5px;
@@ -135,20 +125,17 @@ h3 {
 .participation, .benefits {
   background-image:  url(http://www.csszengarden.com/214/bamboo.png);
   background-attachment: fixed;
-  background-color: lightgreen;
+  background-color: #57a8a0;
   padding-top: 20px;
   padding-right: 30%;
   padding-left: 10%;
   padding-bottom: 20px;
-
+ opacity: .66;
 }
-
 .supporting .requirements {
   clear: both;
   width: 100%;
-
 }
-
 .requirements p {
   float:left;
   clear: both;
@@ -156,29 +143,28 @@ h3 {
   padding-left: 10%;
   margin-bottom: 20px;
 }
-
 .requirements h3 {
   padding-left: 10%;
 }
 .view {
-  border: 1px solid grey;
+  border: 1px solid #54a095;
   width: 60%;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
   margin-top: 10px;
   margin-left: 10% ;
-
+  background-color:#54a095;
+  font-color:#a5b5b5;
 }
-/*.right-arrow{
-  border: 1px solid grey;
-  margin-top: -290px;
-  margin-left: 250px;
+.right-arrow{
+  background:url("right-arrow.png") no-repeat center;
   height: 50px;
-  width: 56px;
-  color: white;
-
-}*/
+  width: 30px;
+  float: right;
+  margin-top: -17px;
+  background-size:47px 60px;
+}
 
 /*=======================*/
 /*Sidebar starts*/
@@ -194,24 +180,21 @@ h3 {
   bottom: 250px;
   opacity: 0.3;
 }
-
 .sidebar ul {
   list-style: none;
-  overflow: hidden;
+   overflow: hidden;
 }
 aside {
   width: 25%;
   float: left;
   padding-left: 10px;
   background: #e2e2e2;
-
   position: absolute;
   top:0px;
   right: 0px;
   bottom:250px;
   opacity: 0.3;
 }
-
 .design-selection ul  {
   margin-top: 130px;
   display: flex;
@@ -233,21 +216,17 @@ aside {
 .design-selection ul li:last-of-type{
   border-bottom: none;
 }
-
 .design-selection ul  li a {
   color: #000000 ;
   text-decoration:none;
-  /*text-transform:uppercase;*/
 }
 .design-name {
   text-transform:uppercase;
   font-family: 'Julius Sans One', sans-serif;
 }
-
 .designer-name  {
   text-transform: lowercase;
 }
-
 .design-selection ul  li a:nth-child(3n) {
   color: #000000 ;
 }
@@ -258,9 +237,7 @@ aside {
 .zen-resources ul:first-of-type{
   border-top: 1px solid grey;
 }
-
 .zen-resources ul {
-  /*margin-top:30px;*/
   display: flex;
   font-family: 'Julius Sans One', sans-serif;
   justify-content: center;
@@ -269,7 +246,6 @@ aside {
   text-align: center;
   float: right;
 }
-
 .zen-resources ul  li {
   width: 100%;
   margin-top: 35px;
@@ -278,14 +254,11 @@ aside {
   border-bottom: 1px solid grey;
   text-align: left;
 }
-
-
 .zen-resources ul  li a {
   color: grey;
   text-decoration:none;
   text-transform:uppercase;
   font-size: 18px;
-  /*margin-top:100px;*/
 }
 
 /*=======================*/
@@ -304,29 +277,23 @@ aside {
   font-family: 'icomoon';
 }
 .end p {
-  color: #282828  ;
+  color: #d1e0e0 ;
   font-size:24px;
   text-align: center;
-}
-
-.end p {
   font-style:italic;
   line-height:30px;
 }
-
 .end a {
   color: #fff;
   font-weight: 50px;
   font-style: normal;
 }
-
 footer {
   background: #00443e;
   color:white;
   height:100px;
   clear: both;
 }
-
 footer ul {
   font-family: 'icomoon';
   display: flex;
@@ -335,7 +302,6 @@ footer ul {
   justify-content:center;
     list-style: none;
 }
-
 footer ul li {
   margin-right: 50px;
   margin-top: 20px;
@@ -351,33 +317,29 @@ footer ul li {
   width: 200px;
   }
 .right-arrow {
-    width: 44px;
-    height: 60px;
-    margin-left: 100px;
-    margin-top: -62px;
+  width: 44px;
+  height: 60px;
+  margin-left: 100px;
+  margin-top: -62px;
 }
 }
 @media screen and (max-width: 1024px) {
 .right-arrow {
-    width: 44px;
-    height: 0px;
-    margin-left: 220px;
-    margin-top: -62px;
+  width: 44px;
+  height: 0px;
+  margin-left: 220px;
+  margin-top: -62px;
 }
 .design-selection,
 .design-archives,
 .zen-resources
 {
   font-size: 15px;
-padding-left: 40px;
+  padding-left: 40px;
 }
-
 }
-
-
 @media screen and (max-width: 320px) {
-
-p {
+.p {
   font-size: 24px;
   line-height: 40px;
 }
@@ -385,96 +347,71 @@ header {
   height: 150px;
   padding-left: 60px;
   padding-top: 40px;
-
 }
 header h1 {
   font-size: 10px;
   margin-left: 28px;
   margin-top: -60px;
-
 }
-
 header h2 {
   font-size: 24px;
   margin-left: 30px;
 }
-
 header img {
   width: 60px;
   height: 60px;
   margin-left: -40px;
   padding-left: 0px;
 }
-
 h3 {
   font-size: 32px;
 }
-
 .supporting, section {
   width: 100%;
   float: left;
 }
-
 .sidebar {
   width: 100%;
   float: left;
   height:500px;
   position:initial;
 }
-
 .lastbanner {
   height: 200px;
 }
-
 .lastbanner p {
   font-size:24px;
   line-height: 40px;
 }
-
-/*.circle {
-  width: 50px;
-  height: 50px;
-  padding:10px;
-  border-radius: 50px;
-  border:1px solid white;
-}*/
-
 footer ul li {
   margin-right: 15px;
   margin-top: 20px;
 }
-
 .summary, .preamble, .explanation {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .participation, .benefits  {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .requirements p {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .requirements h3 {
   padding-left: 5%;
 }
-
 .zen-resources ul  li a {
   font-size: 24px;
   text-align: center;
 }
-
 .design-selection ul  li a {
   font-size: 24px;
 }
-
 .designer-name a {
   font-size: 24px;
 }
@@ -484,12 +421,10 @@ footer ul li {
   margin-left: 217px;
   margin-top: -62px;
 }
-
 .view {
   font-size: 24px;
   text-align: center;
 }
-
 .view:hover {
   background: black;
   color: white;
@@ -503,34 +438,27 @@ footer ul li {
   border:1px solid #54a095;
   font-size: 14px;
   text-align: center;
-  line-height: 50px;
+  line-height: 2px;
   background-color:#54a095;
   color:#a5b5b5;
 }
-.right-arrow {
-  background: url(right-arrow.png);
-  background-size: cover;
-  width: 30px;
-  height: 35px;
-  border: 1px solid #54a095;
-  text-align: center;
-  background-color: #54a095;
-  color: #a5b5b5;
-  margin-left: 264px;
-  margin-top: -32px;
+}
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+.view{
+  height: 60px;
+  width: 220px;
+  line-height: 20px;
+  color: black;
+  margin-left: 250px;
+  padding-left: 10px;
+}
+.right-arrow{
+  height: 50px;
+  width: 50px;
+  margin-top: -30px;
+  color:red;
 }
 }
-/*@media screen and (min-width: 641px) and (max-width: 1023px) {
-.right-arrow img {
-    border: 1px solid grey;
-    margin-top: 30px;
-    margin-left: 189px;
-    height: 50px;
-    width: 56px;
-    color: white;
-    background-color: green;
-}
-}*/
 
 @media screen and (min-width:321px) and  (max-width: 640px){
 
@@ -539,15 +467,11 @@ footer ul li {
   margin-left: 33px;
   margin-top: -22px;
 }
-/*.right-arrow img {
-    border: 1px solid grey;
-    margin-top: 0px;
-    margin-left: 12px;
-    height: 63px;
-    width: 56px;
-    color: white;
-    background-color: green;
-}*/
+.right-arrow{
+  height: 50px;
+  width: 50px;
+  margin-top: -38px;
+}
 }
 
 @media screen and (min-width: 321px) and (max-width: 1023px) {
@@ -560,18 +484,15 @@ header {
   padding-left: 60px;
   padding-top: 40px;
 }
-
 header h1 {
   font-size: 25px;
   margin-left: 51px;
   margin-top: -50px;
 }
-
 header h2 {
   font-size: 20px;
   margin-left: 53px;
 }
-
 header img {
   width: 100px;
   height: 56px;
@@ -579,82 +500,54 @@ header img {
   padding-left: 0px;
   margin-top: 30px;
 }
-
 h3 {
   font-size: 32px;
 }
-
-
 .supporting, section {
   width: 100%;
   float: left;
   padding-right: 0px;
 }
-
-.circle {
-  width: 50px;
-  height: 50px;
-  padding:10px;
-  border-radius: 50px;
-  border:1px solid white;
-}
-
 .sidebar {
   width: 100%;
   float: left;
   position:initial;
   height:1323px;
 }
-
 .lastbanner {
  height: 200px;
 }
-
 .lastbanner p {
   font-size:24px;
   line-height: 40px;
 }
-
-/*.fa-ul i {
-  color: white;
-  text-align: center;
-  font-size: 1.9em;
-  margin-left: -10px;
-}*/
-
 footer ul li {
   color:white;
   margin-right: 15px;
   margin-top: 40px;
   list-style: none;
 }
-
 .summary, .preamble, .explanation {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .participation, .benefits  {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .requirements p {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .requirements h3 {
   padding-left: 5%;
 }
-
 .zen-resources ul{
   width:100%;
 }
-
 .zen-resources ul  li a {
   font: 60px;
   text-align: center;
@@ -662,24 +555,19 @@ footer ul li {
   justify-content:center;
   align-items:center;
   height:4px;
-
 }
-
 .design-selection ul  li a {
   font-size: 24px;
   margin-top:10px;
 }
-
 .designer-name a {
   font-size: 24px;
 }
-
 .view {
-  font-size: 24px;
-  text-align: center;
+  font-size: 20px;
+  text-align: left;
   margin-top: -41px;
 }
-
 .view:hover {
   background: black;
   color: white;
@@ -687,20 +575,13 @@ footer ul li {
 }
 @media  screen and (max-width: 320px){
 .view {
-    border: 1px solid grey;
-    width: 60%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 10%;
+  border: 1px solid grey;
+  width: 80%;
+  height:60px;
+  font-size: 18px;
 }
-/*.right-arrow img {
-    border: 1px solid grey;
-    margin-left: 0px;
-    height: 90px;
-    width: 56px;
-    color: white;
-}*/
-
+.right-arrow{
+  margin-top: -35px;
+}
+}
 
